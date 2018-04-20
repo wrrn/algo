@@ -28,7 +28,8 @@ RUN cd algo-master;\
     python -m pip install -U pip &&\
     python -m pip install -r requirements.txt
 
-ENTRYPOINT [ "/algo-master/algo" ]
+WORKDIR /algo-master
+ENTRYPOINT [ "./algo" ]
 
 
 
