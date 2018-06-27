@@ -9,6 +9,7 @@ RUN apk update; apk add\
     openssl\
     openssl-dev\
     libffi-dev\
+    linux-headers\
     python-dev\
     py-pip\
     py-setuptools\
