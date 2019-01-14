@@ -16,6 +16,11 @@ docker build -t algo .
 docker run -ti -rm -v $(pwd)/configs:/algo-master/configs algo
 ```
 
+# Using algo on ubuntu
+## Install all of the stuff
+## Update app armor
+Add `/etc/resolv.conf              rw,` to `/etc/apparmor.d/usr.lib.ipsec.charon`
+
 
 
 
